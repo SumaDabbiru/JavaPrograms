@@ -1,0 +1,51 @@
+package com.ems;
+
+public class Employee {
+	 private int EmpId;
+	 private String EmpName;
+	 private String EmpEmail;
+	 private char EmpGender;
+	 private int EmpSalary;
+	 
+	 public Employee(int empId, String empName, String empEmail, char empGender, int empSalary) {
+	  super();
+	  EmpId=empId;
+	  EmpName=empName;
+	  EmpEmail=empEmail;
+	  EmpGender=empGender;
+	  EmpSalary=empSalary;
+	 }
+	 public String GetEmployeeDetails() {
+	  return "EmpId="+EmpId+ ", EmpName="+ EmpName + ", EmpEmail=" + EmpEmail + ",EmpGender="+EmpGender+", EmpSalary="+ EmpSalary;
+	 }
+	 public int getEmpId() {
+	  return EmpId;
+	 }
+	 public void setEmpId(int empId) {
+	  EmpId= empId;
+	 }
+	 public String getEmpName() {
+	  return EmpName;
+	 }
+	 public void setEmpName(String empName) {
+	  EmpName= empName;
+	 }
+	 public String getEmpEmail() {
+	  return EmpEmail;
+	 }
+	 public void setEmpEmail(String empEmail) {
+	   EmpEmail= empEmail;
+	 }
+	 public char getEmpGender(char empGender) {
+	  return empGender;
+	 }
+	 public void setEmpGender(char empGender) {
+	  EmpGender= empGender;
+	 }
+	 public float getEmpSalary() {
+	  return EmpSalary;
+	 }
+	 public void setEmpSalary(int empSalary) {
+	  EmpSalary=empSalary;
+	 }
+	}
